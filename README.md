@@ -1,16 +1,43 @@
-# React + Vite
+# 🚀 Full-Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my **full-stack web development skills**, projects, and experience building modern, responsive, and functional web applications.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Frontend:** React.js, JavaScript, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **APIs:** REST APIs
+* **Tools:** Git, GitHub, VS Code
+* **Deployment:** Netlify / Render
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive and modern UI
+* Tailwind CSS styling
+* About Me section
+* Skills & technologies
+* Featured projects
+* Full-stack project showcase
+* Mobile-friendly design
+* Smooth navigation and animations
 
-## Expanding the ESLint configuration
+## 📂 Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The portfolio includes some of my full-stack projects, demonstrating my ability to work across both frontend and backend development, including database integration, APIs, authentication, dashboards, and responsive interfaces.
+
+## 🎯 Purpose
+
+I created this portfolio to showcase my progress as a developer and make it easy for recruiters, clients, and other developers to explore my work and technical skills.
+
+## 👨‍💻 About Me
+
+I'm a Computer Science Engineering student and full-stack web developer passionate about building useful applications, learning new technologies, and continuously improving my development skills.
+
+## 📬 Contact
+
+Feel free to connect with me through the contact links available on my portfolio.
+
+---
+
+⭐ If you like the project, consider giving this repository a star!
