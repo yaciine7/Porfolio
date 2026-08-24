@@ -25,7 +25,7 @@ function Projects() {
 
   return (
     <>
-      <h1 className="text-white mt-60 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mb-7 mx-auto">
+      <h1 id="projects" className="text-white mt-60 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mb-7 mx-auto">
         Projects
       </h1>
       <p className="text-center text-white font-light text-2xl mb-20">Click to Visit</p>

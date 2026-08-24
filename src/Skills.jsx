@@ -26,13 +26,13 @@ function Skills() {
 
   return (
     <>
-      <h1 className="text-white mt-60 mb-20 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mx-auto ">
+      <h1 id="skills" className="text-white mt-60 mb-20 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mx-auto ">
         Skills
       </h1>
       <div className="grid grid-cols-5 gap-8 px-2">
         {skills.map((s, index) => {
           return (
-            <div key={index} style={{"--color": s.color}} className="flex flex-col items-center mx-7 gap-4 text-white hover:text-[var(--color)] hover:scale-120 transition-all duration-300 cursor-default">
+            <div key={index} style={{"--color": s.color}} className="flex flex-col items-center mx-7 gap-4 text-white hover:text-(--color) hover:scale-120 transition-all duration-300 cursor-default">
               {s.icon}
               <p className=" font-bold mt-2 text-2xl text-center">{s.name}</p>
             </div>

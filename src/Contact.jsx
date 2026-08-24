@@ -63,7 +63,7 @@ function Contact() {
 
   return (
     <>
-      <h1 className="text-white mt-80 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mb-15 mx-auto">
+      <h1 id="contact" className="text-white mt-80 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mb-15 mx-auto">
         Contact Me
       </h1>
       <div className="flex flex-wrap gap-8 justify-center items-center w-fit mx-auto text-white text-5xl">
