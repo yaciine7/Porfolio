@@ -1,6 +1,7 @@
 import { FaTooth } from "react-icons/fa";
 import { MdLocalGroceryStore } from "react-icons/md";
 import { FaUserTie } from "react-icons/fa";
+import Fade from "./Fade";
 
 function Projects() {
 
@@ -24,12 +25,12 @@ function Projects() {
     }]
 
   return (
-    <>
-      <h1 id="projects" className="text-white mt-60 font-extrabold text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mb-7 mx-auto">
+    <><Fade>
+      <h1 id="projects" className="scroll-mt-22 text-white mt-32 sm:mt-40 md:mt-60 font-extrabold text-3xl sm:text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mb-7 mx-auto">
         Projects
       </h1>
-      <p className="text-center text-white font-light text-2xl mb-20">Click to Visit</p>
-      <div className="grid grid-cols-3 grid-flow-col gap-4 mt-10 mx-10 items-start">
+      <p className="text-center text-white font-light text-xl sm:text-2xl mb-20">Click to Visit</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10 mx-4 sm:mx-10 items-start">
             {project.map((item, index) => {
                 return (
                     <div key={index} className="flex flex-col justify-center items-center p-4 rounded-lg mb-4">
@@ -44,7 +45,7 @@ function Projects() {
                 );
             })}
         </div>
-    </>
+    </Fade></>
   );
 }
 export default Projects;

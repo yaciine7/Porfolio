@@ -6,16 +6,17 @@ import Projects from "./Projects"
 import Skills from "./Skills"
 import Contact from "./Contact"
 import Footer from './Footer'
+import Fade from "./Fade";
 
 function App(){
   return(<>
           <Bg/>
           <NavBar/>
-          <Hero/>
-          <About/>
-          <Projects/>
-          <Skills/>
-          <Contact/>
+          <Fade><Hero/></Fade>
+          <Fade><About/></Fade>
+          <Fade><Projects/></Fade>
+          <Fade><Skills/></Fade>
+          <Fade><Contact/></Fade>
           <Footer/>
         </>)
 };
