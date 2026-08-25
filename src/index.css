@@ -5,10 +5,7 @@
 body{
   height: 100%;
   margin: 0;
-  background-color: #0a0518;
-  background-image: radial-gradient(circle at center, #4C1D95 0%, transparent 60%),
-                     radial-gradient(circle at 20% 80%, #DB2777 0%, transparent 50%);
-  background-attachment: fixed;
+  background-color: #3e0d3a;
 }
 html {
   scroll-behavior: smooth;
