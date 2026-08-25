@@ -3,13 +3,19 @@
   box-sizing: border-box;
 }
 body{
-  height: 100%;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: #470a25;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 /* Webkit browsers (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
