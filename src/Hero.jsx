@@ -13,10 +13,10 @@ function Hero() {
           <h2 className="text-3xl sm:text-2xl md:text-3xl mt-6 text-center font-bold">
             I'm <span className="text-blue-500 hover:text-purple-500 transition-colors duration-200">Yacine</span> ,
           </h2>
-          <h2 className="text-2xl sm:text-2xl md:text-3xl mt-6 text-center font-bold">
+          <h2 className="text-3xl sm:text-2xl md:text-3xl mt-6 text-center font-bold">
             a passionate full-stack
           </h2>
-          <h2 className="text-xl sm:text-2xl md:text-3xl mt-6 text-center font-bold">Dev</h2>
+          <h2 className="text-3xl sm:text-2xl md:text-3xl mt-6 text-center font-bold">Dev</h2>
         </div>
       </section>
     </Fade></>
