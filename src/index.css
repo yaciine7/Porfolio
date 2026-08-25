@@ -3,10 +3,11 @@
   box-sizing: border-box;
 }
 body{
-  height: 100vh;
+  height: 100%;
 }
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 /* Webkit browsers (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
