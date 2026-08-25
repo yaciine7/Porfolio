@@ -9,6 +9,7 @@ body{
   background-color: #470a25;
   min-height: 100dvh;
   overflow-x: hidden;
+  overflow-y: clip;
 }
 html {
   scroll-behavior: smooth;
