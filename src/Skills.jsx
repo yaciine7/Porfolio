@@ -1,4 +1,5 @@
 import { SiReact, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
+import FadeIn from "./Fade";
 
 function Skills() {
 
@@ -25,7 +26,7 @@ function Skills() {
   }]
 
   return (
-    <>
+    <><FadeIn>
       <h1 id="skills" className="scroll-mt-40 text-white mt-32 sm:mt-40 md:mt-60 mb-20 font-extrabold text-3xl sm:text-4xl hover:text-blue-500 transition-colors duration-200 cursor-default w-fit mx-auto ">
         Skills
       </h1>
@@ -39,7 +40,7 @@ function Skills() {
           );
         })}
       </div>
-    </>
+    </FadeIn></>
   );
 }
 export default Skills;
